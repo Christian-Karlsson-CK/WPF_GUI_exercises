@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "radiobuttons", "trainingexercises\radiobuttons.csproj", "{4C3E4548-E992-4113-B5F7-E44546984239}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "buttons", "exercise2\buttons.csproj", "{8568339E-D7FA-476D-91AB-0B6EA0CEB731}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "checkboxes", "exercise3\checkboxes.csproj", "{B61ED83B-45BC-4CBA-81F7-29A2160B63C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slider", "Slider\Slider.csproj", "{1BFC84D2-C597-4081-9F11-DA6027B0794F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listbox", "Listbox\Listbox.csproj", "{3E92F90D-2400-4389-83AB-A07FCCBBE446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_dialog", "Custom_dialog\Custom_dialog.csproj", "{69B8BB2D-BA99-4C4A-A15F-5B1FC90060C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_switch_button", "Custom_switch_button\Custom_switch_button.csproj", "{3A602EB7-E72E-415C-8394-B29141E8891A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3E4548-E992-4113-B5F7-E44546984239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3E4548-E992-4113-B5F7-E44546984239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3E4548-E992-4113-B5F7-E44546984239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3E4548-E992-4113-B5F7-E44546984239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8568339E-D7FA-476D-91AB-0B6EA0CEB731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8568339E-D7FA-476D-91AB-0B6EA0CEB731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8568339E-D7FA-476D-91AB-0B6EA0CEB731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8568339E-D7FA-476D-91AB-0B6EA0CEB731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61ED83B-45BC-4CBA-81F7-29A2160B63C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61ED83B-45BC-4CBA-81F7-29A2160B63C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61ED83B-45BC-4CBA-81F7-29A2160B63C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61ED83B-45BC-4CBA-81F7-29A2160B63C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFC84D2-C597-4081-9F11-DA6027B0794F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFC84D2-C597-4081-9F11-DA6027B0794F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFC84D2-C597-4081-9F11-DA6027B0794F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFC84D2-C597-4081-9F11-DA6027B0794F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E92F90D-2400-4389-83AB-A07FCCBBE446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E92F90D-2400-4389-83AB-A07FCCBBE446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E92F90D-2400-4389-83AB-A07FCCBBE446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E92F90D-2400-4389-83AB-A07FCCBBE446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B8BB2D-BA99-4C4A-A15F-5B1FC90060C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B8BB2D-BA99-4C4A-A15F-5B1FC90060C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B8BB2D-BA99-4C4A-A15F-5B1FC90060C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B8BB2D-BA99-4C4A-A15F-5B1FC90060C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A602EB7-E72E-415C-8394-B29141E8891A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A602EB7-E72E-415C-8394-B29141E8891A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A602EB7-E72E-415C-8394-B29141E8891A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A602EB7-E72E-415C-8394-B29141E8891A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBEAD98-0426-475F-8281-BC846D3C17CF}
+	EndGlobalSection
+EndGlobal

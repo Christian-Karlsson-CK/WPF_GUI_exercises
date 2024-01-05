@@ -1,0 +1,56 @@
+﻿<Window x:Class="Custom_dialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Custom_dialog"
+        mc:Ignorable="d"
+        Title="Custom Dialog" Height="430" Width="800">
+    
+    <Grid>
+
+        <Button Content="Open Dialog" Width="100" Height="30" Click="OpenDialogButton_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF612400"/>
+                    <GradientStop Color="#FFFF6900" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            </Button>
+        
+        <Canvas Name="dialog" Visibility="Hidden">
+            <!-- container -->
+        <Canvas Background="#000000" Opacity="0.7" Width="800" Height="430">
+        </Canvas>
+        <!-- dimmer -->
+        <Border CornerRadius="8" BorderBrush="Orange" BorderThickness="1" Background="#FFFFFF" Canvas.Left="200" Canvas.Top="80">
+            <Canvas Width="400" Height="280" >
+                <!-- dialog area -->
+                <Rectangle Fill="#FFFF4600" Width="400" Height="60" RadiusX="8" RadiusY="8" >
+                </Rectangle>
+                <Rectangle Fill="#FFFF4600" Width="400" Height="30" Canvas.Top="31">
+                </Rectangle>
+                <Label Width="400" Height="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+                    Dialog
+                </Label>
+                <TextBlock Width="400" Height="138" Canvas.Top="62" Padding="10">
+                    Dialog text!
+                </TextBlock>
+                <Button Content="Close" Width="100" Height="34" Canvas.Top="230" Canvas.Left="156" Click="Button_Click_1" >
+                </Button>
+                </Canvas>
+            </Border>
+        </Canvas>
+    </Grid>
+
+
+    
+</Window>

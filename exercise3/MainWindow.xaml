@@ -1,0 +1,18 @@
+﻿<Window x:Class="exercise3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exercise3"
+        mc:Ignorable="d"
+        Title="Checkboxes" Height="520" Width="820" Background="#FFC7E2C9"
+        Name ="window">
+    <Grid Height="120" Width="150" Margin="5">
+        <StackPanel Margin="10">
+            <Label FontWeight="Bold">Choose color:</Label>
+            <CheckBox Foreground="Red" FontWeight="Bold" Checked="CheckBox_red" Unchecked="UnCheck_red">RED</CheckBox>
+            <CheckBox Foreground="Green" FontWeight="Bold" Checked="CheckBox_green" Unchecked="UnCheck_green">GREEN</CheckBox>
+            <CheckBox Foreground="Blue" FontWeight="Bold" Checked="CheckBox_blue" Unchecked="UnCheck_blue">BLUE</CheckBox>
+        </StackPanel>
+    </Grid>
+</Window>

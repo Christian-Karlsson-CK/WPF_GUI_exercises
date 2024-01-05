@@ -1,0 +1,77 @@
+﻿<Window x:Class="exercise2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exercise2"
+        mc:Ignorable="d"
+            Title="Buttons" Height="520" Width="820" Background="#FFC7E2C9"
+    Name ="window">
+    <Grid>
+
+
+        <WrapPanel Margin="150,192,170,204">
+            <Grid Height="75" Width="150" Margin="5">
+                <Button x:Name="button_red" Content="Red" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="80" RenderTransformOrigin="0.5,0.5" Click="button_red_Click">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF420303"/>
+                            <GradientStop Color="#FFF32828" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+            <Grid Height="75" Width="150" Margin="5">
+                <Button x:Name="button_green" Content="Green" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="80" RenderTransformOrigin="0.5,0.5" Click="button_green_Click">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF003500"/>
+                            <GradientStop Color="#FF4EFF00" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+            <Grid Height="75" Width="150" Margin="5">
+                <Button x:Name="button_blue" Content="Blue" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="80" RenderTransformOrigin="0.5,0.5" Click="button_blue_Click">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF000338"/>
+                            <GradientStop Color="#FF5A71ED" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+        </WrapPanel>
+
+
+
+
+    </Grid>
+</Window>
